@@ -1,5 +1,14 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+/*fonts */
+@font-face {
+    font-family: "ralewayblack";
+    src: url(../fonts/Raleway-Black.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ralewayregular";
+    src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+}
 /* Padding below the footer and lighter body text */
 
 body {
@@ -143,50 +152,64 @@ body {
 }
 .inner-footer h4 {
   color: #fff;
-  font-weight: bold;
   margin-top: 40px;
   margin-right: 60px;
+  font-family: 'ralewayblack';
 }
 .inner-footer hr {
   width: 70px;
   border-top: 2px solid #fff;
   margin-top: -12px;
 }
-.f-row {
-  margin-left: 50px;
-  margin-right: 160px;
-}
-.about-footer hr {
-  margin-right: 50px;
-}
-.about-footer p {
-  text-align: left;
-  margin-left: 127px;
+.inner-footer p {
+  font-family: 'ralewayregular';
+  font-weight: 600;
   width: 340px;
   color: #fff;
+  text-align: left;
+}
+.f-row {
+  margin-left: 150px;
+  margin-right: 260px;
+}
+.about-footer hr {
+  margin-right: 15px;
+}
+.about-footer p {
+  margin-left: 96px;
 }
 .touch-footer hr {
-  margin-right: 34px;
+  margin-right: 30px;
+}
+.touch-footer h4 {
+  margin-right: -6px;
 }
 .touch-footer strong {
   margin-left: 110px;
   color: #fff;
 }
 .touch-footer p {
-  text-align: left;
   margin-left: 190px;
   margin-top: -20px;
-  color: #fff;
 }
 .touch-details {
   text-align: left;
 }
 .social-footer hr {
-  margin-right: 34px;
+  margin-right: -5px;
 }
 .social-footer p {
-  text-align: left;
-  margin-left: 109px;
-  width: 340px;
+  margin-left: 78px;
+}
+
+.bottom-footer {
+  background-color: #252726;
+  text-align: center;
+  height: 60px;
   color: #fff;
+}
+.bottom-footer p{
+  padding-top: 20px;
+  font-family: 'ralewayregular';
+  font-weight: bold;
 }
