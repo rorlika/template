@@ -9,6 +9,14 @@
     font-family: "ralewayregular";
     src: url(../fonts/Raleway-Regular.ttf) format("truetype");
 }
+@font-face {
+    font-family: "ralewabold";
+    src: url(../fonts/Raleway-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "latoblack";
+    src: url(../fonts/Lato-Black.ttf) format("truetype");
+}
 /* Padding below the footer and lighter body text */
 
 body {
@@ -41,6 +49,16 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
   background-color: #313332;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: 'latoblack';
+    font-size: 30px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'ralewabold';
+    color: #c1bfbf;
+    font-size: 20px;
 }
 
 
