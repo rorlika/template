@@ -53,14 +53,17 @@ body {
 .navbar-inverse .navbar-brand {
     color: white;
     font-family: 'latoblack';
-    font-size: 30px;
+    font-size:20px;
 }
 .navbar-inverse .navbar-nav>li>a {
     font-family: 'ralewabold';
-    color: #c1bfbf;
-    font-size: 20px;
+    color: white;
+    font-size: 15px;
 }
-
+.navbar-inverse .navbar-nav>.active>a {
+    color: #00C7E8;
+    background-color: #313332;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -129,8 +132,11 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
   }
+  .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 350px;
+}
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
