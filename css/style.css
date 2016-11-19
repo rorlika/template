@@ -133,3 +133,60 @@ body {
     margin-top: 120px;
   }
 }
+
+/* FOOTER CSS
+-------------------------------------------------- */
+.inner-footer {
+  text-align: center;
+  background-color: #313332;
+  min-height: 235px;
+}
+.inner-footer h4 {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+.inner-footer hr {
+  width: 70px;
+  border-top: 2px solid #fff;
+  margin-top: -12px;
+}
+.f-row {
+  margin-left: 50px;
+  margin-right: 160px;
+}
+.about-footer hr {
+  margin-right: 50px;
+}
+.about-footer p {
+  text-align: left;
+  margin-left: 127px;
+  width: 340px;
+  color: #fff;
+}
+.touch-footer hr {
+  margin-right: 34px;
+}
+.touch-footer strong {
+  margin-left: 110px;
+  color: #fff;
+}
+.touch-footer p {
+  text-align: left;
+  margin-left: 190px;
+  margin-top: -20px;
+  color: #fff;
+}
+.touch-details {
+  text-align: left;
+}
+.social-footer hr {
+  margin-right: 34px;
+}
+.social-footer p {
+  text-align: left;
+  margin-left: 109px;
+  width: 340px;
+  color: #fff;
+}
