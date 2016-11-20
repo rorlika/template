@@ -127,9 +127,51 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  
+  /*FOOTER CSS responsive */
+  .f-row {
+    margin-left: 150px;
+    margin-right: 260px;
+  }
+  .about-footer p {
+    margin-left: 96px;
+  }
+  .about-footer hr {
+    margin-right: 15px;
+  }
+  .about-footer h4 {
+    margin-right: 60px;
+  }
+  .touch-footer h4 {
+    margin-right: -6px;
+  }
+  .touch-footer hr {
+    margin-right: 30px;
+  }
+  .social-footer p {
+    margin-left: 78px;
+  }
+  .inner-footer p {
+    width: 340px;
+  }
+  .social-footer h4 {
+    margin-right: 63px;
+  }
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
 
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
   .navbar-wrapper {
   }
   .container>.navbar-header {
@@ -161,15 +203,48 @@ body {
     font-size: 50px;
   }
 }
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
 
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
+  /*FOOTER CSS responsive */
+  .f-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-footer p {
+    margin-left: 16%;
+  }
+  .about-footer h4 {
+    margin-right: 48%;
+  }
+  .about-footer hr {
+    margin-right: -5px;
+  }
+  .touch-details {
+    margin-left: -9%;
+  }
+  .touch-footer h4 {
+    margin-right: 40%;
+  }
+  .touch-footer hr {
+      margin-right: -7px;
+  }
+  .social-footer p {
+      margin-left: 72px;
+  }
+  .social-footer h4 {
+    margin-right: 180px;
+  }
+  .social-icon {
+    margin-bottom: 15px;
+  }
+  .inner-footer p {
+    width: 68%;
   }
 }
 
 /* FOOTER CSS
--------------------------------------------------- */
+-------------------------------------------------- 
 .inner-footer {
   text-align: center;
   background-color: #313332;
@@ -178,7 +253,6 @@ body {
 .inner-footer h4 {
   color: #fff;
   margin-top: 40px;
-  margin-right: 60px;
   font-family: 'ralewayblack';
 }
 .inner-footer hr {
@@ -188,25 +262,8 @@ body {
 }
 .inner-footer p {
   font-family: verdana;
-  width: 340px;
   color: #fff;
   text-align: left;
-}
-.f-row {
-  margin-left: 150px;
-  margin-right: 260px;
-}
-.about-footer hr {
-  margin-right: 15px;
-}
-.about-footer p {
-  margin-left: 96px;
-}
-.touch-footer hr {
-  margin-right: 30px;
-}
-.touch-footer h4 {
-  margin-right: -6px;
 }
 .touch-footer strong {
   margin-left: 110px;
@@ -221,9 +278,6 @@ body {
 }
 .social-footer hr {
   margin-right: -5px;
-}
-.social-footer p {
-  margin-left: 78px;
 }
 
 .bottom-footer {
