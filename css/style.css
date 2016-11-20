@@ -162,8 +162,7 @@ body {
   margin-top: -12px;
 }
 .inner-footer p {
-  font-family: 'ralewayregular';
-  font-weight: 600;
+  font-family: verdana;
   width: 340px;
   color: #fff;
   text-align: left;
@@ -210,6 +209,5 @@ body {
 }
 .bottom-footer p{
   padding-top: 20px;
-  font-family: 'ralewayregular';
-  font-weight: bold;
+  font-family: verdana;
 }
