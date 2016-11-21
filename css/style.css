@@ -129,7 +129,7 @@ body {
 -------------------------------------------------- */
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-  
+
   /*FOOTER CSS responsive */
   .f-row {
     margin-left: 150px;
@@ -244,7 +244,7 @@ body {
 }
 
 /* FOOTER CSS
--------------------------------------------------- 
+--------------------------------------------------*/ 
 .inner-footer {
   text-align: center;
   background-color: #313332;
