@@ -129,7 +129,6 @@ body {
 -------------------------------------------------- */
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-
   /*FOOTER CSS responsive */
   .f-row {
     margin-left: 150px;
@@ -168,7 +167,13 @@ body {
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .navbar-brand {
+    padding-right: 0px;
+  }
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -176,7 +181,6 @@ body {
   }
   .container>.navbar-header {
     margin-right: 0;
-    margin-left: 350px;
 }
   .navbar-wrapper .container {
     padding-right: 15px;
@@ -205,7 +209,9 @@ body {
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-
+  .navbar-brand {
+    padding-right: 0px;
+  }
   /*FOOTER CSS responsive */
   .f-row {
     margin-left: 0px;
