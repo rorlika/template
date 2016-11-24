@@ -36,23 +36,14 @@ body {
   z-index: 20;
 }
 
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 51px;
-}
-
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
 }
-.navbar-wrapper .navbar { 
-  background-color: #313332;
-}
-.navbar-brand {
-    text-align: center;
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -77,6 +68,10 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -92,7 +87,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: auto;
+  height: 500px;
 }
 
 
@@ -134,58 +129,46 @@ body {
 -------------------------------------------------- */
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-  /*HEADER CSS RESPONSIVE*/
-  .navbar-wrapper .navbar .container {
-    width: 80%;
-    margin-left: 20%;
-  }
+
   /*FOOTER CSS responsive */
-
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 51px;
-}
-
+  .f-row {
+    margin-left: 150px;
+    margin-right: 260px;
+  }
+  .about-footer p {
+    margin-left: 96px;
+  }
+  .about-footer hr {
+    margin-right: 15px;
+  }
+  .about-footer h4 {
+    margin-right: 60px;
+  }
+  .touch-footer h4 {
+    margin-right: -6px;
+  }
+  .touch-footer hr {
+    margin-right: 30px;
+  }
+  .social-footer p {
+    margin-left: 78px;
+  }
+  .inner-footer p {
+    width: 340px;
+  }
+  .social-footer h4 {
+    margin-right: 63px;
+  }
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   .featurette-heading {
     margin-top: 120px;
   }
-
-  .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 51px;
-}
-  /*FOOTER CSS responsive */
-  .inner-footer hr {
-    margin-left: 135px;
-  }
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-  .navbar-brand {
-    padding-right: 0px;
-    margin-left: 0px
-  }
-  .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 51px;
-}
-  .navbar-nav {
-    float: right;
-    margin: 0;
-  }
-  /*FOOTER CSS responsive */
-  .inner-footer hr {
-    margin-left: 135px;
-  }
+
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -193,6 +176,7 @@ body {
   }
   .container>.navbar-header {
     margin-right: 0;
+    margin-left: 350px;
 }
   .navbar-wrapper .container {
     padding-right: 15px;
@@ -218,48 +202,84 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-  /*FOOTER CSS responsive */
-  .inner-footer hr {
-    margin-left: 135px;
-  }
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  .navbar-brand {
-    padding-right: 0px;
+
+  /*FOOTER CSS responsive */
+  .f-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-footer p {
+    margin-left: 16%;
+  }
+  .about-footer h4 {
+    margin-right: 48%;
+  }
+  .about-footer hr {
+    margin-right: -5px;
+  }
+  .touch-details {
+    margin-left: -9%;
+  }
+  .touch-footer h4 {
+    margin-right: 40%;
+  }
+  .touch-footer hr {
+      margin-right: -7px;
+  }
+  .social-footer p {
+      margin-left: 72px;
+  }
+  .social-footer h4 {
+    margin-right: 180px;
+  }
+  .social-icon {
+    margin-bottom: 15px;
+  }
+  .inner-footer p {
+    width: 68%;
   }
 }
 
 /* FOOTER CSS
 --------------------------------------------------*/ 
-.inner-footer .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: left;
-  color: #fff;
+.inner-footer {
+  text-align: center;
+  background-color: #313332;
+  min-height: 235px;
 }
 .inner-footer h4 {
-  font-weight: normal;
-  font-family: 'ralewayblack';
+  color: #fff;
   margin-top: 40px;
+  font-family: 'ralewayblack';
 }
 .inner-footer hr {
-  border-top: 2px solid #eee;
   width: 70px;
-  margin-top: -20px;
-}
-.inner-footer .about hr {
-  margin-left: 102px;
-}
-.inner-footer .touch-details p {
-  margin-left: 75px;
-  margin-top: -20px;
+  border-top: 2px solid #fff;
+  margin-top: -12px;
 }
 .inner-footer p {
   font-family: verdana;
+  color: #fff;
+  text-align: left;
 }
-.footer-details {
-  background-color: #313332;
+.touch-footer strong {
+  margin-left: 110px;
+  color: #fff;
 }
+.touch-footer p {
+  margin-left: 190px;
+  margin-top: -20px;
+}
+.touch-details {
+  text-align: left;
+}
+.social-footer hr {
+  margin-right: -5px;
+}
+
 .bottom-footer {
   background-color: #252726;
   text-align: center;
